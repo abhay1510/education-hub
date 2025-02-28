@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+body {
+    text-align: center;
+    background-color: #caf0f8;
+}
+
+/* header */
+
+.header {
+    height: 60px;
+    background-color: #0077b6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.dev-logo {
+    background-image: url("abhay.jpg.png");
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.name {
+    margin-left: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+
+}
+
+.manu-bar a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.manu-bar{
+    margin-left: 100px;
+}
+
+/* heropart */
+
+.welcom {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family:cursive;
+    border: 2px solid black;
+ 
+}
+.bgilogo {
+    background-image: url("BGI.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.warning {
+    color: red;
+    font-family: roboto;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+@media (max-width : 462px){
+    .header {
+        height: 40px;
+        background-color: #0077b6;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .dev-logo {
+        background-image: url("abhay.jpg.png");
+        background-size: cover;
+        height: 1.8rem;
+        width: 1.8rem;
+        margin-left: 10px;
+        border-radius: 50%;
+    }
+    
+    .name {
+        color: white;
+        font-size: 10px;
+        font-weight: 900;
+        margin-left: 5px;
+    
+    }
+    
+    .manu-bar a {
+        text-decoration: none;
+        font-size: 0.6rem;
+        font-weight: 400;
+        margin-right: 15px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    /* heropart */
+
+.welcom {
+    color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family:cursive;
+    border: 2px solid black;
+ 
+}
+.bgilogo {
+    background-image: url("BGI.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+}
